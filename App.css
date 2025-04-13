@@ -1,0 +1,130 @@
+/* App Container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 600px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+/* Add Task Form */
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form select {
+  padding: 10px;
+  width: 25%;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.form button[type="submit"] {
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 210px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.filters input[type="text"],
+.filters select {
+  padding: 8px;
+  width: 45%;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+/* Task List */
+.todo-listItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background-color: #ffffff;
+  width:580px;
+}
+
+.item-content {
+  width: 100%;
+}
+
+.todo-item-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.todo-item button {
+  padding: 8px 12px;
+  background-color: #335e33;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.todo-item button:hover {
+  background-color: #80c889;
+}
+
+.todo-item.completed {
+  background-color: #a1dbbe;
+}
+
+/* Update Form */
+.update-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.update-form input,
+.update-form select {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.update-form button {
+  padding: 10px;
+  background-color: #007b7b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
